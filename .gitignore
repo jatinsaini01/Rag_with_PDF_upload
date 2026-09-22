@@ -1,0 +1,23 @@
+# API keys and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environment and generated files
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Temporary uploaded documents
+temp.pdf
+
+# Unused local prototype
+new.py
+
+# Streamlit and editor files
+.streamlit/secrets.toml
+.vscode/
+.DS_Store
+Thumbs.db
